@@ -167,6 +167,10 @@ nav ul li a {
 #about {
   margin-top: 10rem;
 }
+#about h2 {
+  font-family: Josefin Slab;
+}
+
 #about div {
   width: 60%;
   margin-left: 20%;
@@ -195,12 +199,19 @@ nav ul li a {
   width: 80%;
   margin-left: 10%;
 }
+#work h2 {
+  font-family: Josefin Slab;
+  font-weight: bold;
+}
+
+.work_section_subtitle {
+  font-family: Josefin Slab;
+}
 
 .portfolio {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 30px;
-  margin-left: 5em;
   margin-top: 5rem;
 }
 .portfolio img,
@@ -228,11 +239,8 @@ nav ul li a {
   text-decoration: none;
 }
 .contact {
-  background-color: #e0edee;
   text-align: center;
-  height: 350px;
   padding: 12px;
-  line-height: 25px;
   margin-top: 40px;
 }
 .contact h3 {
