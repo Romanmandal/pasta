@@ -1,6 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Yusei+Magic&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap");
+
 @media only screen and (max-width: 1400px) {
   .icon i {
     margin-left: 35px;
+  }
+  #about div h2 {
+    padding: 0 0 0 15px;
+    letter-spacing: 2px;
+    font-family: Josefin Slab;
   }
 }
 @media only screen and (max-width: 1300px) {
@@ -17,24 +26,35 @@
   }
   .my_work {
     width: 80%;
-    background-color: blue;
   }
   .portfolio {
     margin-left: 2rem;
+  }
+
+  .about_me {
+  }
+  #about div {
+    width: 80rem;
+    margin-left: 17%;
   }
 }
 @media only screen and (max-width: 1100px) {
   .my_work {
     width: 100%;
-    background-color: rgb(115, 115, 238);
   }
   .portfolio {
-    background-color: rgb(119, 187, 187);
     width: 100%;
     margin-left: -5em;
   }
+  #about div {
+    margin-left: 15%;
+  }
 }
 @media only screen and (max-width: 1065px) {
+  #about div {
+    margin-left: 12%;
+  }
+
   .icon i {
     margin-left: 10px;
   }
@@ -62,12 +82,14 @@
     margin-left: -5px;
   }
   .right {
-    background-color: aquamarine;
     margin-left: 0rem;
   }
   .portfolio {
     width: 125%;
     margin-left: -7em;
+  }
+  #about div {
+    margin-left: 10%;
   }
 }
 @media only screen and (max-width: 900px) {
@@ -89,11 +111,19 @@
   .detail {
     font-size: 12px;
   }
+  #about div {
+    margin-left: 6%;
+    width: 77rem;
+  }
 }
 @media only screen and (max-width: 850px) {
   .portfolio {
     width: 110%;
     margin-left: -5em;
+  }
+  #about div {
+    margin-left: 5%;
+    width: 74rem;
   }
 
   .contact-content {
@@ -128,8 +158,13 @@
   .work_section_subtitle {
     margin-left: 0px;
     text-align: center;
-    background-color: brown;
     width: 80%;
+  }
+
+  #about div {
+    margin-left: 2%;
+    width: 75rem;
+    font-size: 12px;
   }
 
   .icon i {
@@ -139,6 +174,17 @@
     margin-left: 30rem;
   }
 }
+@media only screen and (max-width: 771px) {
+  #about div {
+    margin-left: 2%;
+    width: 75rem;
+    font-size: 12px;
+  }
+  #about div img {
+    width: 160px;
+    margin-right: 20px;
+  }
+}
 @media only screen and (max-width: 762px) {
   .portfolio {
     width: 100%;
@@ -146,6 +192,26 @@
   .work_section_title,
   .work_section_subtitle {
     width: 100%;
+  }
+  #about div {
+    margin-left: 2%;
+    width: 70rem;
+    font-size: 12px;
+  }
+  #about div img {
+    width: 170px;
+    margin-right: 0px;
+  }
+}
+@media only screen and (max-width: 720px) {
+  #about div {
+    margin-left: 2%;
+    width: 63rem;
+    font-size: 12px;
+  }
+  #about div img {
+    width: 170px;
+    margin-right: 5px;
   }
 }
 
@@ -166,19 +232,30 @@
     width: 140px;
   }
   #work {
-    background-color: blueviolet;
     width: 90%;
     margin-left: 5%;
   }
 }
+
 @media only screen and (max-width: 650px) {
   .contact-btn {
     margin-left: 22rem;
   }
   #work {
-    background-color: blueviolet;
     width: 94%;
     margin-left: 5%;
+  }
+  #about div img {
+    width: 160px;
+    margin-top: 20px;
+  }
+  #about div {
+    width: 62rem;
+  }
+  #about div h2 {
+    font-size: 22px;
+    padding: 0 0 0 15px;
+    font-family: Josefin Slab;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -211,6 +288,16 @@
     grid-gap: 10px;
     margin-left: 0px;
   }
+  #about div img {
+    width: 140px;
+    margin-top: 10px;
+  }
+  #about div {
+    width: 57rem;
+  }
+  footer {
+    font-size: 12px;
+  }
 }
 @media only screen and (max-width: 570px) {
   nav ul {
@@ -236,6 +323,18 @@
     font-size: 10px;
   }
 
+  #about div img {
+    width: 140px;
+    margin-top: 70px;
+  }
+  #about div {
+    width: 52rem;
+  }
+  #about div h2 {
+    text-align: center;
+    padding: 0;
+  }
+
   .contact-btn {
     margin-left: 18rem;
   }
@@ -247,6 +346,16 @@
   }
   .logo {
     margin-left: -25px;
+  }
+}
+@media only screen and (max-width: 520px) {
+  #about div img {
+    width: 130px;
+    margin-top: 80px;
+    margin-right: 0px;
+  }
+  #about div {
+    width: 49rem;
   }
 }
 @media only screen and (max-width: 500px) {
@@ -274,6 +383,15 @@
   .portfolio_item {
     margin-left: 4rem;
   }
+  #about div .section_subtitle_about {
+    text-align: center;
+  }
+  #about div {
+    width: 47rem;
+  }
+  #about div img {
+    margin-right: -10px;
+  }
 
   .detail {
     height: 200px;
@@ -287,7 +405,6 @@
     transform: translateY(-200px);
   }
   #contact {
-    background-color: blue;
   }
   .icon i {
     margin-left: 10px;
@@ -295,7 +412,32 @@
   .contact-btn {
     margin-left: 15rem;
   }
+  footer {
+    font-size: 10px;
+  }
 }
+@media only screen and (max-width: 470px) {
+  .contact label {
+    font-size: 12px;
+  }
+  .contact h3 {
+    font-size: 19px;
+  }
+  .icon i {
+    font-size: 25px;
+  }
+  .info h4 {
+    font-size: 15px;
+  }
+  .info p {
+    font-size: 12px;
+  }
+  .right {
+    margin-left: -30px;
+    width: 30rem;
+  }
+}
+
 @media only screen and (max-width: 450px) {
   .logo {
     margin-left: -30px;
@@ -326,6 +468,21 @@
     width: 82%;
   }
 
+  #about div img {
+    position: unset;
+    margin-top: 0px;
+    margin-left: 37%;
+  }
+  #about div p {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+  }
+
+  #about div {
+    width: 43rem;
+  }
+
   .topfield {
     width: 60px;
   }
@@ -333,7 +490,11 @@
     width: 200px;
   }
   .right {
-    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    width: 45rem;
+  }
+  .right button {
+    margin-left: 20rem;
   }
 }
 @media only screen and (max-width: 430px) {
@@ -346,6 +507,43 @@
   }
   #work {
     width: 83%;
+  }
+  #about div {
+    width: 35rem;
+    margin-left: 3rem;
+  }
+  #about div img {
+    margin-left: 11rem;
+  }
+  .right {
+    width: 40rem;
+  }
+  .right label {
+    margin-left: -10px;
+  }
+  .right div {
+    width: 40rem;
+    padding: 0 0 0 20px;
+  }
+  .right div div {
+    margin-left: -10px;
+  }
+  .topfield {
+    width: 80px;
+  }
+  .one {
+    width: 110px;
+    margin-left: -10px;
+  }
+  .two {
+    width: 110px;
+    margin-left: -10px;
+  }
+  .bottomfield {
+    width: 270px;
+  }
+  .right button {
+    margin-left: 15rem;
   }
 }
 @media only screen and (max-width: 400px) {
@@ -379,6 +577,17 @@
     margin-left: 2px;
     width: 110%;
   }
+  #about div {
+    width: 34rem;
+    margin-left: 3rem;
+  }
+  .right div div {
+    margin-left: -20px;
+  }
+  .right button {
+    margin-left: 13rem;
+    font-size: 12px;
+  }
 }
 @media only screen and (max-width: 375px) {
   #work {
@@ -387,11 +596,34 @@
   .portfolio_item {
     height: 180px;
   }
+  #about div {
+    margin-left: 1rem;
+  }
   .detail {
     font-size: 10px;
   }
+  .right {
+    width: 35rem;
+  }
+  .right div div {
+    margin-left: -20px;
+  }
+  .right div {
+    width: 37rem;
+  }
+  .right button {
+    margin-left: 12rem;
+    font-size: 12px;
+  }
 }
-
+@media only screen and (max-width: 360px) {
+  .topfield {
+    width: 79px;
+  }
+  .bottomfield {
+    width: 250px;
+  }
+}
 @media only screen and (max-width: 350px) {
   .logo {
     font-size: 10px;
@@ -425,12 +657,15 @@
   .portfolio {
     width: 103%;
   }
-
+  #about div {
+    width: 32rem;
+  }
+  #about div img {
+    margin-left: 10rem;
+  }
   #contact {
-    background-color: green;
   }
   .contact-content {
-    background-color: red;
     display: block;
     height: 500px;
   }
@@ -440,6 +675,5 @@
 }
 @media only screen and (max-width: 300px) {
   #contact {
-    background-color: rgb(4, 44, 44);
   }
 }
